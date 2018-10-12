@@ -1,15 +1,25 @@
 # ifc2gltf
+convert ifc file to gltf2 file  
 
-## Description
-convert ifc file to gltf2 file
+## Prerequisites
+Git  
+CMake  
+Windows: Visual studio 2017 with c++ toolset  
+2nix: GCC 5.5 or newer  
 
 ## Dependencies
-Boost
-IfcOpenShell
+Boost  
+Open Cascade  
+IfcOpenShell  
 
-## Development environment
-Visual studio 2017 community.
+## Building ifc2gltf
+### Compiling on Windows
+### Compiling on Cent OS
 
-## Test environment
-Windows 10  
-CentOS 7.4
+## Usage example
+ifc2gltf --i helloWorld.ifc --o helloWorld.gltf  
+
+## Development Reference
+https://www.khronos.org/gltf/  
+
+
