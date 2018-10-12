@@ -1,10 +1,15 @@
 # ifc2gltf
+
+## Description
 convert ifc file to gltf2 file
 
-#Dependencies
+## Dependencies
 Boost
-
 IfcOpenShell
 
-#Development environment
+## Development environment
 Visual studio 2017 community.
+
+## Test environment
+Windows 10  
+CentOS 7.4
